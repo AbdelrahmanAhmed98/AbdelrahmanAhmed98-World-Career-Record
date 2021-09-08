@@ -106,7 +106,18 @@ li:hover{
 	position: relative; bottom:30px;
 
 }
-@media all and (max-width: 499px){ 
+
+.back{
+	
+	background-image: url('field.jpg');
+	background-size: 100%; 
+	position: relative; left: 250px; bottom: 68px;
+	width: 1000px;
+	height: 550px;
+	
+}
+
+@media all and (max-width: 499px){
 	.back{
 	
 		background-image: url('field.jpg');
@@ -114,8 +125,10 @@ li:hover{
 		position: relative; left: 250px; bottom: 68px;
 		width: 1000px;
 		height: 550px;
+	
 	}
 }
+
 .all{
 	padding-left: 300px;
 	padding-right: 300px;
