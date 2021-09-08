@@ -1,7 +1,5 @@
-@media all and (min-width: 320px) and (max-width: 780px)
-
 /* @import Rule */
-@import url(World Carer Record.css) all and (max-width: 1024px) {...}
+@import url(World Carer Record.css) all and (min-width: 320px) and (max-width: 780px)
 .body{
 	background-color: #40ffb6;
 
