@@ -1,0 +1,124 @@
+.body{
+	background-color: #40ffb6;
+	overflow-x: hidden;
+
+}
+h1{
+	text-align: center;
+	padding: 16px;
+}
+
+
+.menu{
+	position: relative;
+	float: left;
+/**/	left: -260px;
+	width: 260px;
+	height: 100vh;
+	background-color: crimson;
+	color: white;
+	z-index: 999;
+	transition: all 2.0s;
+	display: block;
+
+}
+
+
+.menu-open{
+	left: -5px;
+	background-color: #2b9fa6;
+}
+
+
+.close-btn{
+	display: block;
+	height: 60px;
+	font-size: 30px;
+	float: right;
+	padding: 0 10px;
+	background-color: crimson;
+	cursor: pointer;
+	position: absolute;
+	left: 260px;
+	line-height: 60px;
+	transition: all 2.0s;
+
+
+}
+
+.open-btn{
+	background-color: #2b9fa6;
+
+}
+
+
+#father > li{
+	list-style-type: none;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+	border-bottom: 1px solid
+	black;
+
+}
+
+li:hover{
+	background-color: #04faef;
+	color: black;
+}
+
+#son{
+	display: none;
+	width: 80% !important;
+}
+
+#son > li {
+	background-color: #04faef;
+	color: black;
+}#son > li:hover{
+	background-color: crimson;
+}
+
+
+#Leagues{
+	display: none;
+	width: 80% !important;
+}
+
+#Leagues > li {
+	background-color: #04faef;
+	color: black;
+}#Leagues > li:hover{
+	background-color: crimson;
+}
+.wel{
+
+	font-family: Brush Script MT; 
+	font-size: 50px;
+	text-align: center;
+	color: gray;
+	position: relative; bottom:30px;
+
+}
+
+.par{
+	line-height: 40px;
+	text-align: justify;
+  	text-justify: inter-word;
+	position: relative; left: 230px; bottom: 1050px;
+	padding: 350px;	
+	scroll-behavior: smooth;
+
+}
+.l1{
+	font-size: 25px;
+	color: darkblue;
+}
+
+.l2{
+	font-size: 15px;
+	position: relative; left: 30px; bottom: 20px;
+	text-align: justify absolute;
+
+}
+
