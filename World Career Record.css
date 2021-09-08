@@ -108,32 +108,28 @@ li:hover{
 }
 
 .back{
-	
 	background-image: url('field.jpg');
 	background-size: 100%; 
 	position: relative; left: 250px; bottom: 68px;
 	width: 1000px;
 	height: 550px;
-	
 }
-
-
 .all{
 	padding-left: 300px;
 	padding-right: 300px;
 }
 #myInput {
-	background-image: url('searchicon1.png'); /* Add a search icon to input */
-	background-position: 10px 12px; /* Position the search icon */
-	background-repeat: no-repeat; /* Do not repeat the icon image */
-	width: 93.5%; /* Full-width */
-	font-size: 16px; /* Increase font-size */
-	padding: 12px 20px 12px 40px; /* Add some padding */
-	border: 1px solid #ddd; /* Add a grey border */
-	margin-bottom: 12px; /* Add some space below the input */
-	position: relative;bottom: 15px;
-	
+  background-image: url('searchicon1.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 93.5%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  position: relative;bottom: 15px;
 }
+
 #myUL {
   /* Remove default list styling */
   list-style-type: none;
